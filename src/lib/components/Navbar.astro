@@ -1,0 +1,36 @@
+---
+const nav = [
+    { text: "Home", link: "/" },
+    { text: "Posts", link: "/post" },
+    { text: "About", link: "/about" },
+];
+
+const { isBlogPost = false } = Astro.props;
+---
+
+<header class={`py-4 ${isBlogPost ? "bg-white" : "bg-gray-950"}`}>
+    <nav class="wrapper grid gap-4 sm:grid-cols-2">
+        <div class="text-center sm:text-left">
+            <a
+                href="/"
+                class={` text-2xl font-semibold font-serif ${isBlogPost ? "text-gray-950" : "text-gray-50"}`}
+                >Thanal</a
+            >
+        </div>
+
+        <ul class="flex flex-wrap items-center justify-evenly sm:justify-end">
+            {
+                nav.map((item) => (
+                    <li>
+                        <a
+                            href={item.link}
+                            class={` sm:ml-6 md:ml-10 text-lg ${isBlogPost ? "text-gray-950" : "text-gray-50"}`}
+                        >
+                            {item.text}
+                        </a>
+                    </li>
+                ))
+            }
+        </ul>
+    </nav>
+</header>

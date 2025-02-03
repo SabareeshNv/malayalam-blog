@@ -1,0 +1,52 @@
+---
+import type { CollectionEntry } from "astro:content";
+import "@styles/typography.css";
+import BaseLayout from "./BaseLayout.astro";
+import Date from "@components/Date.astro";
+import { slugify, unslugify } from "@utils/helper";
+
+type Props = CollectionEntry<"post">["data"];
+const { title, description, pubDate, tags } = Astro.props;
+
+const titleSEO = `${title} | Thanal`;
+const descSEO = `${description} | Thanal`;
+---
+
+<BaseLayout title={titleSEO} description={descSEO}>
+    <main class="wrapper my-8">
+        <article class="max-w-3xl mx-auto">
+            <section>
+                <div class="flex items-center gap-4 mb-2">
+                    {
+                        tags.map((tag) => (
+                            <a
+                                href={`/tag/${slugify(tag)}`}
+                                class="inline-block mb-4 text-amber-700"
+                            >
+                                #{unslugify(tag)}
+                            </a>
+                        ))
+                    }
+                </div>
+
+                <h1 class="font-manjari text-3xl lg:text-4xl font-bold mb-4">
+                    {title}
+                </h1>
+
+                <Date date={pubDate} class="inline-block mb-3" />
+                <hr class="text-[#d4d3d3]" />
+            </section>
+            <div
+                class="my-8 font-manjari typography prose prose-lg lg:prose-xl text-gray-950 marker:text-gray-900"
+            >
+                <slot />
+            </div>
+        </article>
+    </main>
+</BaseLayout>
+
+<!-- <style>
+    hr {
+        color: #d4d3d3;
+    }
+</style> -->

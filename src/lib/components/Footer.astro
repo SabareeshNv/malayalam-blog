@@ -1,0 +1,51 @@
+---
+const footer = [
+    { text: "Privacy Policy", link: "/privacy" },
+    // { text: "RSS Feed", link: "/rss.xml" },
+    { text: "Content Policy", link: "/content-policy" },
+];
+
+function getCurrentYear() {
+    return new Date().getFullYear();
+}
+---
+
+<footer class="mt-4 bg-gray-950 py-7 text-gray-100">
+    <div class="wrapper footer-grid">
+        <ul class="flex w-full flex-wrap items-center justify-evenly gap-4">
+            {
+                footer.map((item) => (
+                    <li>
+                        <a href={item.link}>{item.text}</a>
+                    </li>
+                ))
+            }
+        </ul>
+        <div class="copy text-center">
+            Copyright © {getCurrentYear}
+        </div>
+    </div>
+</footer>
+
+<style>
+    .footer-grid {
+        display: grid;
+        gap: 0.75rem;
+        grid-template-columns: 1fr;
+    }
+    @media (min-width: 950px) {
+        .footer-grid {
+            grid-template-columns: 2fr 1fr;
+            gap: 0.25rem;
+        }
+
+        ul {
+            justify-content: normal;
+            gap: 1.25rem;
+        }
+
+        .copy {
+            text-align: right;
+        }
+    }
+</style>

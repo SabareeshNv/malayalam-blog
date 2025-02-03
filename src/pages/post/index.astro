@@ -1,0 +1,19 @@
+---
+import BlogPostCard from "@components/BlogPostCard.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+import { fetchAndFilterPosts } from "@utils/helper";
+
+const title = "All Articles | Thanal";
+const description = "Here are all the articles published | Thanal";
+
+const posts = await fetchAndFilterPosts();
+---
+
+<BaseLayout {title} {description}>
+    <main class="wrapper my-8">
+        <div class="max-w-xl mx-auto grid gap-8 lg:gap-12">
+            {posts.map((post) => <BlogPostCard {post} />)}
+        </div>
+    </main>
+</BaseLayout>

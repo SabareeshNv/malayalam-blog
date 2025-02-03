@@ -1,0 +1,49 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import BlogPostCard from "@components/BlogPostCard.astro";
+
+import { fetchAndFilterPosts, generateTagData, unslugify } from "@utils/helper";
+
+export async function getStaticPaths() {
+    const posts = await fetchAndFilterPosts();
+
+    const uniqueTags = [
+        ...new Set(posts.flatMap((post) => post.data.tags)),
+    ] as string[];
+
+    const tagData: { name: string; slug: string }[] =
+        generateTagData(uniqueTags);
+
+    return tagData.map((tag) => {
+        const taggedPosts = posts.filter((post) =>
+            post.data.tags.includes(tag.name),
+        );
+
+        return {
+            params: { tag: tag.slug },
+            props: { posts: taggedPosts },
+        };
+    });
+}
+
+const { tag } = Astro.params;
+const { posts } = Astro.props;
+
+const title = `Articles about ${unslugify(tag)} | Thanal`;
+const description = `Articles about ${tag} | Thanal`;
+---
+
+<BaseLayout {title} {description}>
+    <main class="wrapper my-8">
+        <h1 class="mb-6 text-2xl xl:text-3xl">
+            Articles about <span class="font-bold"
+                >{`" ${unslugify(tag)} "`}</span
+            >
+        </h1>
+        <div class="max-w-xl mx-auto">
+            <div class="grid gap-10 lg:gap-8">
+                {posts.map((post) => <BlogPostCard {post} />)}
+            </div>
+        </div>
+    </main>
+</BaseLayout>

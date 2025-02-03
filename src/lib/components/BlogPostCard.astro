@@ -1,0 +1,73 @@
+---
+import { type CollectionEntry } from "astro:content";
+import Date from "./Date.astro";
+import { slugify, unslugify } from "@utils/helper";
+
+interface Props {
+    post: CollectionEntry<"post">;
+}
+
+const { post } = Astro.props;
+const { title, pubDate, summary, tags } = post.data;
+---
+
+<article class="relative post-card py-6">
+    <div class="post-header-wrap">
+        <div class="flex items-center gap-4">
+            {
+                tags.map((tag) => (
+                    <a
+                        href={`/tag/${slugify(tag)}`}
+                        class="inline-block mb-4 text-amber-700"
+                    >
+                        #{unslugify(tag)}
+                    </a>
+                ))
+            }
+        </div>
+        <h2 class="font-manjari font-bold leading-heading text-2xl lg:text-3xl">
+            <a href={`/post/${post.id}/`}>{title}</a>
+        </h2>
+        <Date date={pubDate} class="mt-2 lg:mt-0 inline-block published" />
+    </div>
+
+    <div class="my-6 font-manjari text-xl">
+        {summary}
+    </div>
+</article>
+
+<style>
+    @media only screen and (min-width: 42rem) {
+        .post-card::before {
+            background-color: #d4d3d3;
+            content: "";
+            height: 100%;
+            left: -30px;
+            position: absolute;
+            top: 0;
+            width: 1px;
+        }
+
+        .post-header-wrap::before {
+            background-color: #fff;
+            border: 1px solid #adabac;
+            border-radius: 50%;
+            content: "";
+            height: 11px;
+            left: -36px;
+            position: absolute;
+            top: 73px;
+            width: 11px;
+        }
+    }
+
+    @media only screen and (min-width: 64rem) {
+        .post-header-wrap .published {
+            left: -220px;
+            position: absolute;
+            text-align: right;
+            top: 65px;
+            width: 160px;
+        }
+    }
+</style>

@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+html,
+body {
+    height: 100%;
+}
+
+body>footer {
+    position: sticky;
+    top: 100vh;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin-inline: auto;
+    width: 90%;
+}
+
+@theme {
+    --font-manjari: 'Manjari', ui-sans-serif, system-ui, sans-serif;
+    --color-whitish: #f7f3ed;
+    --color-whitish-accent: #0e0c0c0d;
+}
+
+.font-manjari {
+    font-feature-settings:
+        "psts" off,
+        "pres" off;
+}
