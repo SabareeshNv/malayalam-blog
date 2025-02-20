@@ -1,6 +1,8 @@
+@reference "./tailwind.css";
+
 .typography {
-    /* @apply prose prose-lg text-gray-950 marker:text-gray-900;
-    @apply prose-a:underline prose-a:underline-offset-4 prose-a:decoration-2 prose-a:text-amber-700; */
+    @apply prose prose-lg lg:prose-xl text-gray-950 marker:text-gray-900;
+    @apply prose-a:underline prose-a:underline-offset-4 prose-a:decoration-2 prose-a:text-amber-700;
 
     overflow-wrap: break-word;
     /* So long texts don't cause overflow */

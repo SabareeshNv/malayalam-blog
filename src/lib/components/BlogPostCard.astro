@@ -18,20 +18,23 @@ const { title, pubDate, summary, tags } = post.data;
                 tags.map((tag) => (
                     <a
                         href={`/tag/${slugify(tag)}`}
-                        class="inline-block mb-4 text-amber-700"
+                        class="inline-block mb-4 text-amber-700 text-lg"
                     >
                         #{unslugify(tag)}
                     </a>
                 ))
             }
         </div>
-        <h2 class="font-uroob leading-heading text-3xl lg:text-5xl">
+        <h2 class="font-uroob leading-heading text-4xl lg:text-5xl">
             <a href={`/post/${post.id}/`}>{title}</a>
         </h2>
-        <Date date={pubDate} class="mt-2 lg:mt-0 inline-block published" />
+        <Date
+            date={pubDate}
+            class="mt-2 lg:mt-0 inline-block text-lg lg:text-xl published"
+        />
     </div>
 
-    <div class="my-6 font-manjari text-xl">
+    <div class="my-6 font-manjari text-lg">
         {summary}
     </div>
 </article>
