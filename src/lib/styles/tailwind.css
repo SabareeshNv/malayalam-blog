@@ -11,12 +11,6 @@
         U+0D01-0D7F, U+200C, U+200D, U+25CC;
 }
 
-@font-face {
-    font-family: "Meera";
-    font-display: swap;
-    src: url(/fonts/Meera.woff2) format("woff2");
-}
-
 html,
 body {
     height: 100%;
@@ -35,15 +29,14 @@ body>footer {
 
 @theme {
     --font-manjari: 'Manjari', ui-sans-serif, system-ui, sans-serif;
-    --font-uroob: 'Uroob', sans-serif;
-    --font-meera: 'Meera', sans-serif;
+    --font-uroob: 'Uroob', 'Manjari', ui-sans-serif, system-ui, sans-serif;
     --font-alegreya-sans: 'Alegreya Sans', sans-serif;
     --color-whitish: #f7f3ed;
     --color-whitish-accent: #0e0c0c0d;
 }
 
-/* .font-uroob {
+.font-manjari {
     font-feature-settings:
         "psts" off,
         "pres" off;
-} */
+}
