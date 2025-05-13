@@ -14,5 +14,16 @@
     h5,
     h6 {
         margin-bottom: 0.75rem;
+        font-weight: bold;
+        line-height: 1.2;
+        font-feature-settings:
+            "psts" on,
+            "pres" on;
+    }
+
+    blockquote {
+        border-inline-start: 4px solid #000000e6;
+        font-style: normal;
+        @apply bg-gray-100 px-4 py-1 shadow-sm md:mx-2 lg:mx-4;
     }
 }
