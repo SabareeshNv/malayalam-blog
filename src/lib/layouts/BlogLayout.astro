@@ -20,7 +20,7 @@ const descSEO = `${description} | Thanal`;
                     tags.map((tag) => (
                         <a
                             href={`/tag/${slugify(tag)}`}
-                            class="inline-block mb-4 text-amber-700 text-lg"
+                            class="inline-block mb-4 text-amber-700 text-lg lg:text-xl"
                         >
                             #{unslugify(tag)}
                         </a>
@@ -32,7 +32,10 @@ const descSEO = `${description} | Thanal`;
                 {title}
             </h1>
 
-            <Date date={pubDate} class="inline-block mb-3 text-lg lg:text-xl" />
+            <Date
+                date={pubDate}
+                class="inline-block mb-3 text-lg lg:text-2xl"
+            />
             <hr class="text-[#d4d3d3]" />
 
             <div class="my-8 font-manjari typography">
