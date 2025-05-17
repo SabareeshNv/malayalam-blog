@@ -10,6 +10,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
+    "@astrojs/mdx": "^4.2.6",
     "astro": "^5.7.12"
   },
   "devDependencies": {
@@ -17,6 +18,7 @@
     "@fontsource/manjari": "^5.2.5",
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.1.6",
+    "sharp": "^0.34.1",
     "tailwindcss": "^4.1.6"
   }
 }

@@ -27,4 +27,14 @@
         font-style: normal;
         @apply bg-gray-100 px-4 py-1 shadow-sm md:mx-2 lg:mx-4;
     }
+
+    img {
+        width: 100%;
+        height: auto;
+        margin-inline: auto;
+    }
+
+    figcaption {
+        margin-top: 0.2rem;
+    }
 }
