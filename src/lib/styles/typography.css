@@ -2,6 +2,7 @@
 
 .typography {
     @apply prose prose-lg lg:prose-xl text-gray-950 marker:text-gray-900;
+    @apply prose-headings:font-uroob prose-headings:text-4xl prose-headings:lg:text-5xl;
     @apply prose-a:underline prose-a:underline-offset-4 prose-a:decoration-2 prose-a:text-amber-700;
 
     overflow-wrap: break-word;
@@ -13,12 +14,9 @@
     h4,
     h5,
     h6 {
-        margin-bottom: 0.75rem;
+        margin-bottom: 0.15rem;
         font-weight: bold;
-        line-height: 1.2;
-        font-feature-settings:
-            "psts" on,
-            "pres" on;
+        line-height: 1.4;
     }
 
     blockquote {
