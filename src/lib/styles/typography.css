@@ -1,5 +1,19 @@
 @reference "./tailwind.css";
 
+@utility prose {
+    blockquote {
+
+        /* Disable adding quote marks to block-quotes: https://github.com/tailwindlabs/tailwindcss-typography/issues/66 */
+        p {
+
+            &:first-of-type::before,
+            &:last-of-type::after {
+                content: none;
+            }
+        }
+    }
+}
+
 .typography {
     @apply prose prose-lg lg:prose-xl text-gray-950 marker:text-gray-900;
     @apply prose-headings:font-uroob prose-headings:text-4xl prose-headings:lg:text-5xl;
@@ -23,7 +37,7 @@
         border-inline-start: 4px solid #000000e6;
         /* border-inline-start: 5px solid var(--color-amber-700); */
         font-style: normal;
-        @apply bg-gray-100 px-4 py-1 shadow-sm md:mx-2 lg:mx-4;
+        @apply bg-gray-200 px-4 py-1 shadow-sm md:mx-2 lg:mx-4;
     }
 
     img {
@@ -32,11 +46,25 @@
         margin-inline: auto;
     }
 
-    figcaption {
-        margin-top: 0.2rem;
+    figure img {
+        margin-bottom: 0rem;
+    }
+
+    figure figcaption {
+        margin-top: 0.5rem;
     }
 
     p {
         word-spacing: 0.25rem
+    }
+
+    .side-by-side {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+
+        @media screen and (min-width: 48rem) {
+            grid-template-columns: 1fr 1fr;
+        }
     }
 }

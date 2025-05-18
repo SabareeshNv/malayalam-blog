@@ -65,22 +65,8 @@ body>footer {
 
 @theme {
     --font-manjari: 'Manjari', 'Alegreya Sans', ui-sans-serif, system-ui, sans-serif;
-    --font-uroob: 'Uroob', 'Manjari', ui-sans-serif, system-ui, sans-serif;
+    --font-uroob: 'Uroob', ui-sans-serif, system-ui, sans-serif;
     --font-alegreya-sans: 'Alegreya Sans', sans-serif;
     --color-whitish: #f7f3ed;
     --color-whitish-accent: #0e0c0c0d;
-}
-
-@utility prose {
-    blockquote {
-
-        /* Disable adding quote marks to block-quotes: https://github.com/tailwindlabs/tailwindcss-typography/issues/66 */
-        p {
-
-            &:first-of-type::before,
-            &:last-of-type::after {
-                content: none;
-            }
-        }
-    }
 }
