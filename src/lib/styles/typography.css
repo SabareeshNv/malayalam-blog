@@ -2,7 +2,6 @@
 
 @utility prose {
     blockquote {
-
         /* Disable adding quote marks to block-quotes: https://github.com/tailwindlabs/tailwindcss-typography/issues/66 */
         p {
 
@@ -55,7 +54,7 @@
     }
 
     p {
-        word-spacing: 0.25rem
+        word-spacing: 0.3rem
     }
 
     .side-by-side {
