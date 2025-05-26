@@ -2,6 +2,7 @@
 
 @utility prose {
     blockquote {
+
         /* Disable adding quote marks to block-quotes: https://github.com/tailwindlabs/tailwindcss-typography/issues/66 */
         p {
 
@@ -20,6 +21,7 @@
 
     overflow-wrap: break-word;
     /* So long texts don't cause overflow */
+    word-spacing: 0.25rem;
 
     h1,
     h2,
@@ -34,15 +36,12 @@
 
     blockquote {
         border-inline-start: 4px solid #000000e6;
-        /* border-inline-start: 5px solid var(--color-amber-700); */
         font-style: normal;
         @apply bg-gray-200 px-4 py-1 shadow-sm md:mx-2 lg:mx-4;
     }
 
     img {
         width: 100%;
-        height: auto;
-        margin-inline: auto;
     }
 
     figure img {
@@ -51,19 +50,5 @@
 
     figure figcaption {
         margin-top: 0.5rem;
-    }
-
-    p {
-        word-spacing: 0.3rem
-    }
-
-    .side-by-side {
-        display: grid;
-        gap: 1rem;
-        grid-template-columns: 1fr;
-
-        @media screen and (min-width: 48rem) {
-            grid-template-columns: 1fr 1fr;
-        }
     }
 }
