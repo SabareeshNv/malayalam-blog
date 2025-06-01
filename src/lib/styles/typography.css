@@ -2,13 +2,13 @@
 
 .typography {
     @apply prose prose-lg lg:prose-xl text-gray-950 marker:text-gray-900;
-    @apply prose-headings:font-uroob prose-headings:text-4xl prose-headings:lg:text-5xl;
+    @apply prose-headings:font-uroob prose-headings:text-5xl;
     @apply prose-a:underline prose-a:underline-offset-4 prose-a:decoration-2 prose-a:text-amber-700;
 
     max-width: 75ch;
     overflow-wrap: break-word;
     /* So long texts don't cause overflow */
-    word-spacing: 0.25rem;
+    word-spacing: 0.2rem;
 
     h1,
     h2,
@@ -18,7 +18,7 @@
     h6 {
         margin-bottom: 0.15rem;
         font-weight: bold;
-        line-height: 1.4;
+        line-height: 1.25;
     }
 
     blockquote {
