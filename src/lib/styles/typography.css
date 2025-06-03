@@ -19,6 +19,7 @@
         margin-bottom: 0.15rem;
         font-weight: bold;
         line-height: 1.25;
+        text-wrap: pretty;
     }
 
     blockquote {
