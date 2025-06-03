@@ -9,8 +9,6 @@
   ],
   "compilerOptions": {
     "baseUrl": ".",
-    "strictNullChecks": true,
-    "allowJs": true,
     "paths": {
       "@components/*": [
         "src/lib/components/*"
