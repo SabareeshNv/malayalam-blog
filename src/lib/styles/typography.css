@@ -8,7 +8,7 @@
     max-width: 75ch;
     overflow-wrap: break-word;
     /* So long texts don't cause overflow */
-    word-spacing: 0.2rem;
+    word-spacing: 0.1rem;
 
     h1,
     h2,
@@ -20,6 +20,7 @@
         font-weight: bold;
         line-height: 1.25;
         text-wrap: pretty;
+        word-spacing: 0.05rem;
     }
 
     blockquote {
