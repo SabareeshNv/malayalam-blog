@@ -1,128 +1,35 @@
 ---
-title: വോട്ടെടുപ്പ് രീതി മാറണോ - അംഗീകാര വോട്ടെടുപ്പ്
-description: പ്രാദേശിക ഭരണകൂടങ്ങൾക്ക് സ്വതന്ത്ര നിലനിൽപ്പ് വേണ്ടതല്ലേ എന്നൊരു ചർച്ച
-summary: പ്രാദേശിക ഭരണകൂടങ്ങൾക്ക് സ്വതന്ത്ര നിലനിൽപ്പ് വേണ്ടതല്ലേ എന്നൊരു ചർച്ച
+title: നിലവിലെ വോട്ടെടുപ്പ് രീതി മാറാൻ സമയമായോ - അംഗീകാര വോട്ടെടുപ്പ്
+description: അംഗീകാര വോട്ടിങ് എന്നതിനെ കുറിച്ച ഒരു ലേഖനം
+summary: അംഗീകാര വോട്ടിങ് എന്നതിനെ കുറിച്ച ഒരു ലേഖനം
 pubDate: "2025-06-04"
 tags: ["Election Reform"]
 slug: approval-voting
 ---
 
-<!-- നിലവിൽ നമ്മുടെ രാജ്യത്ത് നടക്കുന്ന വോട്ടെടുപ്പ് രീതി മനസിലാക്കി എന്ത് കൊണ്ട് ഒരു മാറ്റം ആവശ്യമാണ് എന്നതിലേക്ക് വരാം.
+ജനാധിപത്യ പ്രക്രിയയുടെ അടിസ്ഥാന ശിലയാണ് തിരഞ്ഞെടുപ്പുകൾ. ഓരോ വോട്ടിനും വലിയ പ്രാധാന്യമുണ്ട് തിരഞ്ഞെടുപ്പിൽ. നമ്മുടെ പ്രതിനിധികളെ തിരഞ്ഞെടുക്കാനും നാടിന്റെ ഭാവി രൂപപ്പെടുത്താനും വോട്ട് നമ്മെ പ്രാപ്തരാക്കുന്നു.  എന്നാൽ എപ്പോഴെങ്കിലും ചിന്തിച്ചിട്ടുണ്ടോ, നിങ്ങളുടെ വോട്ട് ശരിക്കും നിങ്ങളുടെ ആഗ്രഹങ്ങളെയും പ്രതീക്ഷകളെയും പ്രതിഫലിപ്പിക്കുന്നുണ്ടോ എന്ന്? തിരഞ്ഞെടുക്കുന്ന പ്രതിനിധികൾ നമ്മുടെ സമൂഹത്തിന്റെ വൈവിധ്യമാർന്ന കാഴ്ചപ്പാടുകളെ യഥാർത്ഥത്തിൽ ഉൾക്കൊള്ളുന്നുണ്ടോ? 
 
-തിരഞ്ഞെടുപ്പ് കമ്മീഷൻ ഒരു മണ്ഡലത്തിൽ തിരഞ്ഞെടുപ്പ് പ്രഖ്യാപിച്ചു കഴിഞ്ഞാൽ വിവിധ സ്ഥാനാർഥികൾ രംഗത്തു വരുകയാണ് - അവർ പല പാർട്ടികളെ പ്രധിനിധീകരിക്കുന്നവർ ആയിരിക്കാം, സ്വന്തന്ത്രർ ആയിരിക്കാം.പരിശോധന കഴിഞ്ഞു സ്ഥാനാർത്ഥികളുടെ പത്രിക തിരഞ്ഞെടുപ്പ് കമ്മീഷൻ സ്വീകരിച്ചു കഴിഞ്ഞാൽ തിരഞ്ഞെടുപ്പ് പ്രചാരണം തുടങ്ങുകയാണ്. ജനങ്ങൾ ആവട്ടെ സ്ഥാനാർത്ഥികളുടെ വാഗ്‌ദാനങ്ങളും, അവരുടെ കഴിവും, സ്വന്തം രാഷ്ട്രീയ താല്പര്യങ്ങളും പരിഗണിച്ചു തിരഞ്ഞെടുപ്പ് ദിവസം പോളിംഗ് സ്ഥലത്തു എത്തി വോട്ടിംഗ് മെഷീനിൽ തനിക്ക് താല്പര്യമുള്ള സ്ഥാനാർത്ഥിക്ക് വോട്ട് ചെയ്യുന്നു. തിരഞ്ഞെടുപ്പ് കഴിഞ്ഞു വോട്ട് എണ്ണി ഒരു മണ്ഡലത്തിൽ ഏറ്റവും കൂടുതൽ വോട്ട് കിട്ടിയ സ്ഥാനാർത്ഥിയെ വിജയിയായി പ്രഖ്യാപിക്കുന്നു. -->
+നിലവിൽ നമ്മൾ ഉപയോഗിച്ച് വരുന്ന വോട്ടിംഗ് രീതിക്ക് ചില അടിസ്ഥാനപരമായ പരിമിതികളുണ്ട്. അവ കാരണമാണ് തിരഞ്ഞെടുപ്പ് പലപ്പോഴും യഥാർത്ഥ ജനഹിതം പ്രതിഫലിക്കാത്തത്. ഈ പരിമിതികൾ പരിഹരിച്ച് ജനങ്ങളുടെ യഥാർത്ഥ ആഗ്രഹങ്ങളെ കൂടുതൽ കൃത്യമായി പ്രതിഫലിപ്പിക്കുന്ന ഒരു വോട്ടിംഗ് രീതിയെക്കുറിച്ച് ചിന്തിക്കേണ്ടത് കാലത്തിന്റെ ആവശ്യമാണ്. അത്തരമൊരു സാധ്യതയാണ്  'അംഗീകാര വോട്ടിങ് ' (Approval Voting) എന്നത്.
 
-Imagine you’re choosing a community leader for your neighborhood in Kerala. Under the current First Past The Post system, each voter can only pick one candidate. Even if a majority of people feel that two or even three candidates would be good choices, the winner is simply the one with the most votes—even if that person isn’t the first choice of most voters. This can lead to a situation where a leader is elected with only a small slice of overall approval, simply because votes were split among similar-minded candidates.
+## നിലവിലെ വോട്ടിംഗ് രീതിയുടെ പരിമിതികൾ
 
-Now, think of a different approach where you have the option to mark every candidate you actually like or find acceptable, not just one. In this kind of system, the candidate who wins is the one who gathers support from the widest part of the community. For a state like Kerala—where political opinions are diverse and communities have strong local identities—this system would mean that a leader really has broad backing.
+നമ്മുടെ നാട്ടിൽ ഉൾപ്പെടെ ലോകത്ത് പലയിടത്തും കണ്ടുവരുന്ന വോട്ടിംഗ് രീതിയാണ് 'ഫസ്റ്റ് പാസ്റ്റ് ദി പോസ്റ്റ്' (First Past Tthe Post) അല്ലെങ്കിൽ 'പ്ലൂറാലിറ്റി വോട്ടിംഗ് ' (Plurality Voting). ഈ വോട്ടിംഗ്  രീതിയിൽ, ഒരു വോട്ടർക്ക് ഒരു സ്ഥാനാർത്ഥിക്ക് മാത്രമേ വോട്ട് ചെയ്യാൻ കഴിയൂ. അതായത്, ഏറ്റവും ഇഷ്ടപ്പെട്ട ഒരാൾക്ക് വോട്ട് ചെയ്യുക, ബാക്കിയുള്ളവരെ ഒഴിവാക്കുക. ഏറ്റവും കൂടുതൽ വോട്ട് കിട്ടുന്ന സ്ഥാനാർത്ഥി വിജയിയായി പ്രഖ്യാപിക്കപ്പെടുന്നു. 
 
-Here are a few straightforward reasons why ditching the current system might be a good idea for Kerala:
+ഒരു സാങ്കല്പിക ഉദാഹരണം വെച്ച് നമ്മുക്ക് ഈ വോട്ടിംഗ് രീതിയുടെ പരിമിതി മനസിലാക്കാം — 100 പേരുള്ള ഒരു കോളേജിൽ നിന്നും ടൂർ ആസൂത്രണം ചെയ്യുകയാണ് കരുതുക. കൂടുതൽ ആളുകൾക്കും താല്പര്യമുള്ള 4 സ്ഥലങ്ങളിൽ നിന്നും ഒരെണ്ണം അവർക്ക് തിരഞ്ഞെടുക്കണം. അതിനായി അവർ ഒരു വോട്ടെടുപ്പ് നടത്താൻ തീരുമാനിക്കുന്നു. വോട്ടെടുപ്പ് കഴിഞ്ഞു ലഭിച്ച ഫലം ഇതാണ്.
 
-- **Avoiding Vote Splitting:** When several candidates with similar ideas run, votes can be divided among them. This means that even if most people support a particular viewpoint, a candidate with a smaller, divided base might win. Allowing voters to support all acceptable candidates would help the most widely acceptable leader come to the forefront.
+|     Destination              |     No. of Votes    |     Vote Share     |
+| -----------------  | -------------  | -------------  | 
+|  Ootty                            |  25                         |   25 %                    | 
+|  Goa                               |  30                         |   30 %                    |
+|  Munnar                         |  23                         |   23 %                    |
+|  Delhi                              |  22                         |   22 %                    |
 
-- **Encouraging Broad Appeal:** In a system where you can approve more than one candidate, leaders would aim to reach out not just to their core supporters but to a larger group. This could help reduce extreme polarization and encourage more inclusive policies, which is important in Kerala’s diverse social and political landscape.
+30% വോട്ട് നേടിയ ഗോവയാണ് ഈ തിരഞ്ഞെടുപ്പിലെ വിജയി.  എന്നാൽ 70% വോട്ടർമാരും ഗോവ തിരഞ്ഞെടുത്തിട്ടില്ല എന്നത് ശ്രദ്ധേയമാണ് — അതായത് ഭൂരിപക്ഷം ആളുകൾക്കും ഗോവയിൽ പോകുവാൻ താല്പര്യം ഇല്ലെങ്കിലും ഗോവ ആണ് തിരഞ്ഞെടുപ്പിലെ വിജയി. ഭൂരിപക്ഷത്തിന്റെ താല്പര്യം ബലി കഴിക്കുന്ന ഫലമാണ് ലഭിക്കുന്നതെങ്കിൽ, വോട്ട് ചെയ്തവരുടെ താല്പര്യം സംരക്ഷിച്ച തിരഞ്ഞെടുപ്പാണോ നടന്നത്?
 
-- **Making Every Vote Count:** Many Kerala voters have often felt that their true preferences are not fully reflected because they have to choose just one option—even if they agree with more than one candidate on key issues. A system that lets you mark everyone you support ensures your vote isn’t “wasted” and reflects your genuine views.
+നിലവിലെ തിരഞ്ഞെടുപ്പ് സമ്പ്രദായത്തിൽ, നിങ്ങൾ ഒരു സ്ഥാനാർത്ഥിക്ക് മാത്രം വോട്ട് ചെയ്യുന്നു. രണ്ടോ മൂന്നോ ആളുകളെ ഇഷ്ടമാണെങ്കിൽ പോലും, ഒരാളെ മാത്രം തിരഞ്ഞെടുക്കാൻ നിങ്ങൾ നിർബന്ധിതരാകുന്നു. ഇത് വോട്ടർമാരുടെ യഥാർത്ഥ താൽപ്പര്യങ്ങളെ വികലമാക്കുന്നു. 'ഒരാൾക്ക്/ഒന്നിന്  മാത്രം വോട്ട് ' എന്നതിനാലാണ് നമ്മുടെ സാങ്കല്പിക കഥയിലെ തിരഞ്ഞെടുപ്പ് ഭൂരിപക്ഷ ജനഹിതം പ്രതിഫലിക്കാതെ  പോയത്.
 
-- **Fostering Honest Choices:** When you’re forced to choose only one candidate, you might end up voting against your true wish simply because you fear your vote might be lost. If you can support all the leaders you find acceptable, it creates an environment where every vote is a sincere reflection of your opinion.
+## അംഗീകാര വോട്ടെടുപ്പ് 
 
-In essence, adopting such a system in Kerala could lead to leaders with a stronger, more genuine mandate from the people. It respects the idea that each voter’s opinion matters fully, and that the head of government should be someone with widespread support rather than just a plurality of votes. 
+അംഗീകാര വോട്ടിംഗ് എന്നത് തികച്ചും വ്യത്യസ്തമായ സമീപനമാണ്. ഇവിടെ വോട്ടർമാർക്ക് തങ്ങൾ "അംഗീകരിക്കുന്ന" (approve) എത്ര സ്ഥാനാർത്ഥികൾക്കും വോട്ട് ചെയ്യാൻ അനുവാദമുണ്ട്. അതായത്, നിങ്ങൾക്ക് ഇഷ്ടപ്പെട്ട ഒന്നോ, രണ്ടോ, മൂന്നോ, അല്ലെങ്കിൽ എല്ലാ സ്ഥാനാർത്ഥികൾക്കും വോട്ട് രേഖപ്പെടുത്താം. വോട്ട് എണ്ണുമ്പോൾ, ആർക്കാണോ ഏറ്റവും കൂടുതൽ വോട്ടുകൾ ലഭിക്കുന്നത്, അയാളായിരിക്കും വിജയി.
 
-<br/>
-
-## Practical Problems Solved in an Indian Context
-
-India’s pluralistic and diverse society, with its hundreds of political parties and regional variations, poses unique electoral challenges. Approval Voting can address several of these challenges without introducing the administrative and conceptual complexities of other methods.
-
-### 1. **Mitigating Vote Splitting and the Spoiler Effect**
-
-- **Problem:** In a First-Past-The-Post (FPTP) system, votes fragment among ideologically similar candidates. This often results in a scenario where a candidate wins without broad support because the majority’s vote is divided.
-
-- **Solution:** With Approval Voting, voters can select all candidates they find acceptable. This reduces the risk of splitting votes among similar parties or candidates, ensuring that the eventual winner has wide acceptability reflective of a genuine consensus rather than just a plurality.
-
-### 2. **Encouraging Broader Consensus and Reducing Polarization**
-
-- **Problem:** Indian politics is frequently characterized by high polarization and opportunistic alliances. Extreme positions can be exaggerated in an FPTP system, leading to divisive tactics rather than cooperative, moderate campaigns.
-
-- **Solution:** By rewarding candidates who attract approvals from across different segments of society, Approval Voting naturally incentivizes coalition-building and outreach beyond narrow bases. This system forces candidates to appeal to a wider section of the electorate, which can help moderate political rhetoric and reduce the incentive for extreme partisanship.
-
-### 3. **Simplifying the Voting Process and Enhancing Voter Engagement**
-
-- **Problem:** The simplicity of the ballot is crucial in a country with immense literacy and linguistic diversity. More complex systems—like ranked-choice or proportional representation—can confuse voters and increase administrative complications.
-
-- **Solution:** Approval Voting uses a straightforward ballot design. Voters simply mark every candidate they approve without the need to order preferences or understand intricate vote-transfer mechanisms. This simplicity can make the system more accessible to a broad demographic, thereby strengthening democratic participation.
-
-### 4. **Minimizing Strategic Voting and Ensuring Honest Expression**
-
-- **Problem:** Under traditional systems, voters often resort to tactical voting to avoid “wasting” their single vote on a less competitive candidate. This forces many voters to compromise on their true preferences.
-
-- **Solution:** Approval Voting liberates voters from the strategic dilemma. Since voters can support all candidates they find acceptable, they can cast their ballot in a way that truly reflects their political stance without fearing that their vote will inadvertently help their least favorite candidate.
-
-### 5. **Operational Efficiency and Cost-Effectiveness**
-
-- **Problem:** Changing electoral systems can be daunting from an administrative perspective, especially for a nation as large as India.
-
-- **Solution:** Approval Voting is not only simpler in terms of voter instruction but can also be implemented using existing voting machines with minimal modification. This makes it an attractive, low-cost reform that maintains the efficiency of the current system while offering improved representational outcomes.
-
-You might find it helpful to visualize these points in a quick summary table:
-
-| **Practical Problem**                 | **How Approval Voting Solves It**                                                                                                   |
-|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Vote splitting & spoiler effects      | Allows multiple approvals, ensuring the most broadly acceptable candidate wins.                                                      |
-| Political polarization                | Encourages candidates to appeal to a diverse range of voters, reducing extreme partisanship.                                          |
-| Complex ballot designs                | Uses a simple "approve or not" marking for each candidate, making it accessible even in diverse educational contexts.                |
-| Strategic voting dilemmas             | Enables honest expression of preferences without fear of wasting votes.                                                            |
-| High administrative costs             | Can often be integrated into existing electoral infrastructures with minimal changes.                                              |
-
----
-
-## Philosophical Reasons for Adopting Approval Voting
-
-Beyond its practical advantages, Approval Voting carries compelling philosophical justifications that align with core democratic principles:
-
-### 1. **Broad Consent and Legitimate Representation**
-
-Philosophically, a truly representative democracy should derive its legitimacy from a broad consensus. Approval Voting ensures that elected leaders have—and can demonstrate—a wide base of approval. This promotes the idea that governance should reflect not just the plurality but the collective welfare of the community, echoing democratic ideals of legitimacy and broad consent.
-
-### 2. **Authentic Political Expression**
-
-Many voters feel forced to suppress genuine preferences under systems that limit them to a single choice. Approval Voting honors the multifaceted nature of political beliefs by enabling voters to **truthfully** signal support for all acceptable candidates. This respects individual autonomy and the integrity of personal expression—a cornerstone of democratic philosophy.
-
-### 3. **Utilitarian Considerations**
-
-From a utilitarian perspective, the objective is to maximize overall satisfaction or happiness. Approval Voting tends to elect candidates who are acceptable to the greatest number of people, thereby aligning decision-making with the utilitarian ideal of achieving the greatest good for the most voters. This ethical framework supports a system that prioritizes the collective benefit rather than the victory of a candidate with only a narrow appeal.
-
-### 4. **Equity and Procedural Justice**
-
-A fair electoral system upholds the principle that every citizen’s voice should count equally. Approval Voting embodies this through its non-binary approach. By allowing voters to approve of every candidate they deem worthy, it improves procedural fairness and avoids the pitfalls of systems that might inadvertently disenfranchise segments of the electorate. This aligns with philosophical theories of justice where every vote contributes to a fair and transparent outcome.
-
-### 5. **Deliberative Democracy and Reduced Alienation**
-
-Lastly, Approval Voting fosters an environment where voters are less alienated. When people see that all of their acceptable political preferences are considered, they are more likely to trust the electoral process and feel that their voice truly matters. This increased voter engagement is crucial for maintaining a healthy, deliberative democracy where debate and consensus are valued over divisiveness.
-
----
-
-## Concluding Thoughts
-
-Approval Voting’s potential to address vote splitting, encourage broader consensus, simplify the voting process, and reduce alienation marks it as a transformative tool for a diverse electorate like India’s. Philosophically, its alignment with ideals of fairness, broad consent, and authentic representation provides a strong ethical foundation—one that could deliver a more inclusive and representative democratic process.
-
-In exploring further implications, you might consider how this system could impact campaign strategies or voter education in India, which, due to its complexities and regional diversities, stand to benefit greatly from any reform that genuinely amplifies each citizen’s voice. Additionally, studying comparative cases where Approval Voting has been piloted could offer additional insights into its practical adaptability and long-term impact on democratic engagement.
-
-Does the interplay between practical solutions and philosophical ideals inspire you to explore how this voting system might reshape other societal decision-making processes as well?
-
-
-<br/>
-
-No, approval voting is not in conflict with the concept of "one man, one vote." Despite allowing voters to mark more than one candidate, the system is designed in such a way that every voter’s ballot carries equal weight in the final outcome.
-
-### How Approval Voting Upholds "One Man, One Vote"
-
-**Equal Influence:**  
-In approval voting, each voter submits a single ballot—a complete set of binary (approve/disapprove) choices for all candidates. This ballot is counted once, regardless of how many candidates are approved. While it might seem that marking multiple candidates could give extra influence, the idea is that you are simply expressing which outcomes are acceptable to you. The cumulative tally from all voters then identifies the candidate with the broadest overall approval. In this way, every voter exercises one vote, even if that vote is expressed across several candidates.
-
-**Avoiding Vote Weight Multiplication:**  
-A common misconception is that casting multiple approvals means a voter’s influence is amplified compared to someone who selects only one candidate. However, if a voter were to simply "approve" all candidates, it would cancel out any preferential impact because it affects every candidate equally—much like casting a completely neutral vote. Thus, it does not skew the balance of power or weight between voters; it merely reflects which candidates a voter genuinely finds acceptable without inflating their influence.
-
-**Philosophical and Democratic Alignment:**  
-At the core, "one man, one vote" expresses the democratic ideal that every citizen has an equal say in the outcome of an election. Approval voting adheres to this principle by ensuring that the ballot you cast—full of your true preferences—is counted just once. It transcends the zero-sum dilemma of single-choice systems without compromising on the fundamental equality of every vote. Instead, it provides a more nuanced snapshot of voter sentiment while preserving fairness, as no individual’s ballot carries more weight than another’s.
-
-This approach makes approval voting particularly attractive in diverse democracies. It respects individual autonomy by allowing voters to convey a broader range of acceptable choices while maintaining the integrity and equality of their electoral power.
+അംഗീകാര വോട്ടിംഗിൽ നിങ്ങളുടെ ഇഷ്ടം കൂടുതൽ വിശാലമായി പ്രകടിപ്പിക്കാൻ സാധിക്കുന്നു. നിങ്ങൾക്ക് ഒരു സ്ഥാനാർത്ഥിയെ മാത്രം ഇഷ്ടമെങ്കിൽ അയാൾക്ക് മാത്രം വോട്ട് ചെയ്യാം. ഒന്നിലധികം പേരെ ഇഷ്ടമെങ്കിൽ അവർക്കെല്ലാം വോട്ട് ചെയ്യാം. ഇത് വോട്ടർമാർക്ക് കൂടുതൽ സ്വാതന്ത്ര്യം നൽകുന്നു. ഈ മാറ്റം വോട്ടർമാർക്ക് തങ്ങളുടെ യഥാർത്ഥ താൽപ്പര്യങ്ങൾ കൂടുതൽ കൃത്യമായി രേഖപ്പെടുത്താൻ അവസരം നൽകുന്നു.
