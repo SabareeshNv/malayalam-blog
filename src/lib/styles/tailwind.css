@@ -63,9 +63,15 @@ body>footer {
         "pres" off;
 }
 
+.font-uroob {
+    font-feature-settings:
+        "psts" off,
+        "pres" off;
+}
+
 @theme {
     --font-manjari: 'Manjari', 'Alegreya Sans', ui-sans-serif, system-ui, sans-serif;
-    --font-uroob: 'Uroob', ui-sans-serif, system-ui, sans-serif;
+    --font-uroob: 'Uroob', 'Manjari', 'Alegreya Sans', ui-sans-serif, system-ui, sans-serif;
     --font-alegreya-sans: 'Alegreya Sans', ui-sans-serif, system-ui, sans-serif;
     --color-whitish: #f7f3ed;
     --color-whitish-accent: #0e0c0c0d;
