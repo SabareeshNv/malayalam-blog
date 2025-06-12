@@ -25,7 +25,7 @@ const { title, pubDate, summary, tags } = post.data;
                 ))
             }
         </div>
-        <h2 class="font-uroob text-4xl/9 lg:text-5xl/10">
+        <h2 class="font-uroob text-4xl lg:text-5xl">
             <a href={`/post/${post.id}/`}>{title}</a>
         </h2>
         <Date
@@ -34,7 +34,7 @@ const { title, pubDate, summary, tags } = post.data;
         />
     </div>
 
-    <div class="my-6 font-manjari text-lg">
+    <div class="my-6 font-manjari text-lg xl:text-xl">
         {summary}
     </div>
 </article>

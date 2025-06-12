@@ -14,7 +14,7 @@ const descSEO = `${description} | Thanal`;
 
 <BaseLayout title={titleSEO} description={descSEO}>
     <main class="wrapper my-8">
-        <article class="max-w-3xl mx-auto">
+        <article class="max-w-4xl mx-auto">
             <div class="flex items-center gap-4 mb-2">
                 {
                     tags.map((tag) => (
@@ -37,7 +37,7 @@ const descSEO = `${description} | Thanal`;
             <Date date={pubDate} class="inline-block mb-3 text-lg lg:text-xl" />
             <hr class="text-[#d4d3d3]" />
 
-            <div class="my-8 font-manjari typography">
+            <div class="my-8 font-manjari typography mx-auto">
                 <slot />
             </div>
         </article>
