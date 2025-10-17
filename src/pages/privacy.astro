@@ -81,3 +81,34 @@ const description =
         </div>
     </main>
 </BaseLayout>
+
+<style>
+    .typography {
+        /* Overriding default prose styling */
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: "Alegreya Sans", ui-sans-serif, system-ui, sans-serif;
+            font-size: var(--text-3xl);
+            line-height: var(
+                --tw-leading,
+                var(--text-4xl--line-height, calc(2.5 / 2.25))
+            );
+        }
+
+        @media (width >= 80rem /* 1280px */) {
+            h1,
+            h2,
+            h3,
+            h4 {
+                font-size: var(--text-4xl);
+                line-height: var(
+                    --tw-leading,
+                    var(--text-5xl--line-height, 1) /* 1 */
+                );
+            }
+        }
+    }
+</style>
