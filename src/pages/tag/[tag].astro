@@ -36,9 +36,9 @@ const description = `Articles about ${tag} | Thanal`;
 <BaseLayout {title} {description}>
     <main class="wrapper my-8">
         <h1 class="mb-6 text-2xl xl:text-3xl">
-            Articles about <span class="font-bold"
-                >{`" ${unslugify(tag)} "`}</span
-            >
+            Articles about &ndash; <span class="font-bold text-amber-700"
+                >{`${unslugify(tag)}`}
+            </span>
         </h1>
         <div class="max-w-xl mx-auto">
             <div class="grid gap-10 lg:gap-8">

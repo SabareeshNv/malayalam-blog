@@ -18,7 +18,7 @@ const { title, pubDate, summary, tags } = post.data;
                 tags.map((tag) => (
                     <a
                         href={`/tag/${slugify(tag)}`}
-                        class="inline-block mb-4 text-amber-700 text-lg"
+                        class="inline-block mb-4 text-amber-800 text-lg lg:text-xl"
                     >
                         #{unslugify(tag)}
                     </a>
