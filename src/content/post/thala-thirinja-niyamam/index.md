@@ -1,7 +1,7 @@
 ---
-title: അശക്തനായ രാജാവ് - തല തിരിഞ്ഞ നിയമങ്ങൾ
-description: തല തിരിഞ്ഞ നിയമങ്ങൾ
-summary: തല തിരിഞ്ഞ നിയമങ്ങൾ
+title: അശക്തനായ രാജാവ് — തല തിരിഞ്ഞ നാടും വ്യവസ്ഥയും
+description: തല തിരിഞ്ഞ നാടും വ്യവസ്ഥയും.
+summary: തല തിരിഞ്ഞ നാടും വ്യവസ്ഥയും.
 pubDate: "2025-12-19"
 tags: ["Law", "Judiciary", "First Principles"]
 slug: thala-thirinja-niyamam
