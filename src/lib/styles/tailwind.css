@@ -7,38 +7,57 @@
     font-display: swap;
     font-weight: 700;
     src: url(/fonts/Uroob.woff2) format("woff2");
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
-        U+0D01-0D7F, U+200C, U+200D, U+25CC;
+    unicode-range:
+        U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F,
+        U+200C, U+200D, U+25CC;
 }
 
 /* manjari-malayalam-100-normal */
 @font-face {
-    font-family: 'Manjari';
+    font-family: "Manjari";
     font-style: normal;
     font-display: swap;
     font-weight: 100;
-    src: url(@fontsource/manjari/files/manjari-malayalam-100-normal.woff2) format('woff2'), url(@fontsource/manjari/files/manjari-malayalam-100-normal.woff) format('woff');
-    unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
+    src:
+        url(@fontsource/manjari/files/manjari-malayalam-100-normal.woff2)
+            format("woff2"),
+        url(@fontsource/manjari/files/manjari-malayalam-100-normal.woff)
+            format("woff");
+    unicode-range:
+        U+0307, U+0323, U+0951-0952, U+0964-0965, U+0D00-0D7F, U+1CDA, U+1CF2,
+        U+200C-200D, U+20B9, U+25CC, U+A830-A832;
 }
 
 /* manjari-malayalam-400-normal */
 @font-face {
-    font-family: 'Manjari';
+    font-family: "Manjari";
     font-style: normal;
     font-display: swap;
     font-weight: 400;
-    src: url(@fontsource/manjari/files/manjari-malayalam-400-normal.woff2) format('woff2'), url(@fontsource/manjari/files/manjari-malayalam-400-normal.woff) format('woff');
-    unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
+    src:
+        url(@fontsource/manjari/files/manjari-malayalam-400-normal.woff2)
+            format("woff2"),
+        url(@fontsource/manjari/files/manjari-malayalam-400-normal.woff)
+            format("woff");
+    unicode-range:
+        U+0307, U+0323, U+0951-0952, U+0964-0965, U+0D00-0D7F, U+1CDA, U+1CF2,
+        U+200C-200D, U+20B9, U+25CC, U+A830-A832;
 }
 
 /* manjari-malayalam-700-normal */
 @font-face {
-    font-family: 'Manjari';
+    font-family: "Manjari";
     font-style: normal;
     font-display: swap;
     font-weight: 700;
-    src: url(@fontsource/manjari/files/manjari-malayalam-700-normal.woff2) format('woff2'), url(@fontsource/manjari/files/manjari-malayalam-700-normal.woff) format('woff');
-    unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
+    src:
+        url(@fontsource/manjari/files/manjari-malayalam-700-normal.woff2)
+            format("woff2"),
+        url(@fontsource/manjari/files/manjari-malayalam-700-normal.woff)
+            format("woff");
+    unicode-range:
+        U+0307, U+0323, U+0951-0952, U+0964-0965, U+0D00-0D7F, U+1CDA, U+1CF2,
+        U+200C-200D, U+20B9, U+25CC, U+A830-A832;
 }
 
 html,
@@ -46,7 +65,7 @@ body {
     height: 100%;
 }
 
-body>footer {
+body > footer {
     position: sticky;
     top: 100vh;
 }
@@ -57,12 +76,13 @@ body>footer {
     width: 90%;
 }
 
-/* .font-manjari {
+.font-manjari {
     font-feature-settings:
         "psts" off,
         "pres" off;
 }
 
+/*
 .font-uroob {
     font-feature-settings:
         "psts" off,
@@ -83,9 +103,12 @@ body>footer {
 } */
 
 @theme {
-    --font-manjari: 'Manjari', 'Alegreya Sans', ui-sans-serif, system-ui, sans-serif;
-    --font-uroob: 'Uroob', 'Manjari', 'Alegreya Sans', ui-sans-serif, system-ui, sans-serif;
-    --font-alegreya-sans: 'Alegreya Sans', ui-sans-serif, system-ui, sans-serif;
+    --font-manjari:
+        "Manjari", "Alegreya Sans", ui-sans-serif, system-ui, sans-serif;
+    --font-uroob:
+        "Uroob", "Manjari", "Alegreya Sans", ui-sans-serif, system-ui,
+        sans-serif;
+    --font-alegreya-sans: "Alegreya Sans", ui-sans-serif, system-ui, sans-serif;
     --color-whitish: #f7f3ed;
     --color-whitish-accent: #0e0c0c0d;
 }
